@@ -115,7 +115,7 @@ func getPages() int {
 
 func checkErr(err error) {
 	if err != nil {
-		log.Fatalln(err)
+		log.Fatalln(err, " error")
 	}
 }
 
